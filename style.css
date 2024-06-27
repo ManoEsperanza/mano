@@ -4,3 +4,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+#songs {    
+    height:100vh;
+}
+#song-row{
+    height:100%;
+}
+#concerts {
+    height: 100vh;
+}
