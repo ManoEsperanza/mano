@@ -5,7 +5,6 @@
     width:100vw;
   }
 
-
 #hero{
     background-image: url("images/backdrop.jpg");
     height: 100vh;
@@ -35,9 +34,8 @@
 
 
 #concerts {
-    height: 100vh;
-
-    }
+    :padding:20rem ;
+  }
  #contact {
     height:100vh;
     font-family: "Playwrite AU SA", cursive;
@@ -72,14 +70,14 @@
  
  /* // X-Large devices (large desktops, 1200px and up) */
  @media (min-width: 1200px) { .custom-class {
-    display: none;
+    display: block;
     background-color: antiquewhite;
   } }
  
  /* // XX-Large devices (larger desktops, 1400px and up) */
  @media (min-width: 1400px) { .custom-class {
-    display: none;
+    display: block;
     background-color: azure;
   } }
 }
-
+ 
