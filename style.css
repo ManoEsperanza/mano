@@ -1,19 +1,80 @@
+
+.navbar {
+    position:top fixed;
+    text-align: center;
+    width:100vw;
+  }
+
+
 #hero{
     background-image: url("images/backdrop.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+    margin-top:1em;
+    padding:1rem;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style::bold;
     color:rgba(243, 11, 11, 0.92)
-
+    
 }
+
 #songs {    
     height:100vh;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: <100>;
+        font-style: normal;
+        color:rgb(15, 175, 183)
+
+    
 }
-#song-row{
-    height:100%;
-    color:rgb(15, 175, 183)
-}
+
+
 #concerts {
-    height: 100vh;
+    height: 85vh;
+
+    }
+ #contact {
+    height:100vh;
+    color: rgb(23, 47, 231);
+
+ }
+
+ body{
+
+ 
+ /* // Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) { .custom-class {
+    display:block;
+    background-color: aqua;
+  }}
+ 
+ /* // Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {.custom-class {
+    display: block;
+    background-color: brown;
+  }}
+ 
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) { .custom-class {
+    display: block;
+    background-color: blue;
+  }}
+ 
+ /* // X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { .custom-class {
+    display: none;
+    background-color: antiquewhite;
+  } }
+ 
+ /* // XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) { .custom-class {
+    display: none;
+    background-color: azure;
+  } }
 }
+
