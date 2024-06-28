@@ -36,8 +36,10 @@
 #concerts {
     :padding:20rem ;
   }
+  
  #contact {
     height:100vh;
+    text-align: center;
     font-family: "Playwrite AU SA", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -46,38 +48,61 @@
 
  }
 
- body{
-    background-color: rgb(219, 237, 237);
-
+ <style> 
+      *, 
+      *::after, 
+      *::before { 
+        box-sizing: border-box; 
+      } 
+      body { 
+        margin: 0; 
+        padding: 0; 
+      } 
+      .parent { 
+        display: flex; 
+        flex-direction: column; 
+        height: 200px; 
+        width: 80vw; 
+        background-color: rgb(40, 193, 236); 
+      } 
+      .child { 
+        background-color: rgb(51, 169, 216); 
+        border: 1px solid black; 
+        flex-basis: 300px;  
+        width: 100px; 
+      } 
  
- /* // Small devices (landscape phones, 576px and up) */
- @media (min-width: 576px) { .custom-class {
-    display:block;
-    background-color: aqua;
-  }}
- 
- /* // Medium devices (tablets, 768px and up) */
- @media (min-width: 768px) {.custom-class {
-    display: block;
-    background-color: brown;
-  }}
- 
- /* // Large devices (desktops, 992px and up) */
- @media (min-width: 992px) { .custom-class {
-    display: block;
-    background-color: blue;
-  }}
- 
- /* // X-Large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) { .custom-class {
-    display: block;
-    background-color: antiquewhite;
-  } }
- 
- /* // XX-Large devices (larger desktops, 1400px and up) */
- @media (min-width: 1400px) { .custom-class {
-    display: block;
-    background-color: azure;
-  } }
-}
- 
+      
+      @media only screen and (max-width: 600px) { 
+        .hide{ 
+            display:none; 
+            visibility: hidden; 
+        } 
+      } 
+      
+      @media only screen and (min-width: 600px) { 
+        .parent { 
+          flex-direction: row; 
+        } 
+       
+      } 
+      
+      @media only screen and (min-width: 768px) { 
+        .parent { 
+          flex-direction: row; 
+        } 
+      } 
+      
+      @media only screen and (min-width: 992px) { 
+        .parent { 
+          flex-direction: row; 
+        } 
+      } 
+      
+      @media only screen and (min-width: 1200px) { 
+        .parent { 
+          flex-direction: row; 
+        } 
+      } 
+    </style>
+   
