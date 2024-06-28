@@ -44,11 +44,12 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-    color: rgb(23, 47, 231);
+    color:rgb(15, 175, 183)
 
  }
 
  body{
+    background-color: rgb(219, 237, 237);
 
  
  /* // Small devices (landscape phones, 576px and up) */
