@@ -14,10 +14,10 @@
     text-align: center;
     margin-top:1em;
     padding:1rem;
-    font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: <400>;
-  font-style::bold;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing:bold;
+  font-weight: <700>;
+  font-style: italic ;
     color:rgba(243, 11, 11, 0.92)
     
 }
@@ -27,7 +27,7 @@
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
         font-weight: <100>;
-        font-style: normal;
+        font-style: italic;
         color:rgb(15, 175, 183)
 
     
@@ -35,11 +35,15 @@
 
 
 #concerts {
-    height: 85vh;
+    height: 100vh;
 
     }
  #contact {
     height:100vh;
+    font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     color: rgb(23, 47, 231);
 
  }
