@@ -36,7 +36,7 @@
 #concerts {
     :padding:20rem ;
   }
-  
+
  #contact {
     height:100vh;
     text-align: center;
@@ -46,6 +46,10 @@
   font-style: normal;
     color:rgb(15, 175, 183)
 
+ }
+
+ .h5,p {
+  color:brown
  }
 
  <style> 
