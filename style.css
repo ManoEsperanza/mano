@@ -13,3 +13,11 @@
 #concerts {
     height: 100vh;
 }
+#hero,h1,h2,p {
+    text-align: center;
+    color:rgba(243, 11, 11, 0.92)
+
+}
+#song-row {
+    color:rgb(15, 175, 183)
+}
