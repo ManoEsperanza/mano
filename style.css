@@ -15,7 +15,7 @@
     padding:1rem;
     font-family: "Playfair Display", serif;
   font-optical-sizing:bold;
-  font-weight: <700>;
+  font-weight: 700;
   font-style: italic ;
     color:rgba(243, 11, 11, 0.92)
     
@@ -25,25 +25,25 @@
     height:100vh;
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
-        font-weight: <100>;
+        font-weight: 100;
         font-style: italic;
-        color:rgb(15, 175, 183)
+        color:rgb(15, 175, 183);
 
     
 }
 
-
+/*
 #concerts {
     :padding:20rem ;
    
-  }
+  }*/
 
  #contact {
     height:100vh;
     text-align: center;
     font-family: "Playwrite AU SA", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
     color:rgb(15, 175, 183)
 
@@ -65,10 +65,10 @@
         flex-direction: column; 
         height: 200px; 
         width: 80vw; 
-        background-color: rgb(40, 193, 236); 
+        background-color: rgb(236, 138, 40); 
       } 
       .child { 
-        background-color: rgb(51, 169, 216); 
+        background-color: rgb(51, 51, 216); 
         border: 1px solid black; 
         flex-basis: 300px;  
         width: 100px; 
