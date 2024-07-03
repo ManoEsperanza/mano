@@ -38,17 +38,12 @@
 }
 
 
-#concerts {
-    :padding:20rem ;
-   
-  }
-
  #contact {
     height:100vh;
     text-align: center;
     font-family: "Playwrite AU SA", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 300;
   font-style: normal;
     color:rgb(15, 175, 183)
 
