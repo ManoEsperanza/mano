@@ -7,7 +7,7 @@
   font-optical-sizing:bold;
   font-weight: 800;
   font-style: italic ;
-    color:rgba(206, 49, 49, 0.92)
+
   }
 
 #hero{
@@ -83,12 +83,6 @@
   color: white; 
 
 }
-
- <style> 
-      *, 
-      *::after, 
-      *::before { 
-        box-sizing: border-box; 
       } 
       body { 
         margin: 0; 
@@ -140,5 +134,5 @@
           flex-direction: row; 
         } 
       } 
-    </style>
+    
    
