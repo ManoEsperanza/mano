@@ -1,4 +1,4 @@
-# Guide to your project 
+# Guide to my project 
 This project is a website for bells simple test website 
  
 ## About 
